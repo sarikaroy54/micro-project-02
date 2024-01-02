@@ -1,0 +1,90 @@
+.main-part3{
+  display:flex;
+  justify-content: space-between;
+  margin:100px 130px;
+  background-color:#483EFF;
+  border-radius: 0.3em;
+}
+.part3-left{
+  display:flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  /* width:15%; */
+  /* margin: 60px; */
+
+}
+.part3-left button{
+  height: 11vh;
+  width: 15vw;
+  border-radius: 0.8em;
+  /* font-family: DM Sans; */
+  margin:0px 70px;
+  cursor: pointer;
+}
+.button1{
+  border:none;
+  background-color: #BCE0F6;
+  font-family: DM Sans;
+  font-weight: bolder;
+}
+.button2{
+  background-color: #483EFF;
+  border: 3px solid white;
+  color: white;
+  font-family: DM Sans;
+  font-weight: bold;
+}
+.button3{
+  background-color: #483EFF;
+  border: 3px solid white;
+  color: white;
+  font-weight: bold;
+  font-family: DM Sans;
+}
+
+
+
+.part3-right{
+  /* padding: 2em 5em */
+  padding:0em 14em 0em 0em;
+  margin:0.7em 0.7em 0.7em 0em;
+  border-radius: 0.3em;
+  background-color: white;
+  postion:relative;
+}
+.part3-right form{
+  background-color: white;
+  /* margin: 0em 2em; */
+}
+.form-label{
+  font-family: Roboto;
+  font-size: 1em;
+  font-weight: bolder;
+}
+.form-inputs{
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 0.8em;
+  border: none;
+}
+.inside{
+  padding:0em 0em 0em 2.5em;
+}
+form h1{
+  font-family: Inter;
+  font-size: 1.7em;
+  padding:0em 0em 0em 0.5em;
+}
+.part3-right button{
+  height: 7vh;
+  width: 7vw;
+  background-color: black;
+  color:white;
+  border-radius: 0.3em;
+  border: none;
+  font-weight: DM Sans;
+  align-items: right;
+  margin: 20% 0 8% 140%;
+  cursor: pointer;
+  /* position: absolute; */
+}

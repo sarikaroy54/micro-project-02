@@ -1,0 +1,71 @@
+.main{
+  /* position:relative; */
+  margin: 110px 70px 0px 70px;
+}
+
+/* main-part1 */
+.main-part1{
+  display:flex;
+  justify-content: space-evenly;
+  margin: 0px 0px 40px 0px;
+  padding: 0px 50px 0px 50px;
+}
+.part1-left img{
+  width: 300px;
+  height: 320px;
+  cursor: pointer;
+} 
+.part1-right{
+  background-color:#E5D8FF;
+  width: 35vw;
+  border: none;
+  border-radius: 15px;
+  margin: 16px 0px 31px 0px;
+  padding: 15px; /*yh box ke andar ke line ke liye h*/
+  cursor: pointer;
+}
+.part1-right p{
+  font-family: DN Sans;
+}
+
+
+/* main-part2 */
+.main-part2{
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0em 7.1em 0em 7.5em; */
+  margin: 0em 8em 0em 8em;
+}
+.main-part2 div{
+  color: aliceblue;
+  font-family: DN Sans;
+  width: 10.5em;
+  height: 5em;
+  border: none;
+  border-radius: 5px;
+  padding-left: 1em;
+  cursor: pointer;
+  /* font-size: 5px; */
+  /* display:inline-block; */
+}
+
+.first{
+  background-color: #929DFF;
+  box-shadow: 5px 5px 12px #67595966;
+  rgb(216, 205, 205);
+  /* opacity:0.1 */
+  /* padding:-5px; */
+}
+.second{
+  background-color: #734CF2;
+  box-shadow: 5px 5px 12px #67595966;
+}
+.third{
+  background-color: #D288FF;
+  box-shadow: 5px 5px 12px #67595966;
+
+}
+.fourth{
+  background-color: #000000;
+  box-shadow: 10px 10px 12px #85838366;
+}

@@ -1,0 +1,18 @@
+.calling{ /* it's HTML is written in main-part2*/
+  height: 7em;
+  margin: 0em 0em 0em 57em;
+  top: 29.5em;
+  position: fixed;
+  cursor: pointer;
+}
+.social{ /*it's HTML is written after header*/
+  float:right;
+  height:160px;
+  margin: 5em 0em 0em 0em;
+}
+.social-icon{
+  position:sticky;
+  position: -webkit-sticky;
+  top:0;
+  cursor: pointer;
+}

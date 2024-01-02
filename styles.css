@@ -1,0 +1,60 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+#navigation-bar{
+  background-color: #6F6AF7;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  height: 12vh;
+}
+
+.header{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.head-left{
+  font-family: Delius Unicase;
+  color:aliceblue;
+  font-size: 30px;
+  cursor: pointer;
+}
+.head-main{
+  display:flex;
+  justify-content: space-between; 
+  flex-grow: 0.3;
+  align-items: center;
+  font-family: DM Sans;
+  color: aliceblue;
+  font-weight:bold;
+  font-size: 17px;
+  flex-wrap: wrap;  /*content will come in the next line while shrinking*/
+  cursor: pointer;
+}
+.search-bar{
+  position: relative;
+}
+.search-bar input{ /*search-bar class ke andar jo input tag h*/
+  height: 20px;
+  width: 144px;
+  border-radius: 18px;
+  border-width:0;
+  padding-left:10px;
+}
+.search-bar img{ /*search-bar class ke andar jo image tag h*/
+  position : absolute;
+  top:7px;
+  right:17px;
+  height: 12px;
+  cursor: pointer;
+}
+.head-right img{
+  width:23px;
+  cursor: pointer;
+}
+
+
